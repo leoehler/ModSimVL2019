@@ -21,6 +21,11 @@ public class Grid {
 
     }
 
+    public void liveOrDie(Cell c){
+        
+
+    }
+
 
     public void showOnConsole(){
         for (int i = 0; i < sizeY; i++) {
