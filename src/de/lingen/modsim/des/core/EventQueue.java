@@ -1,4 +1,4 @@
-package de.lingen.modsim.simulationCore;
+package de.lingen.modsim.des.core;
 
 import java.util.ArrayList;
 import java.util.Collections;

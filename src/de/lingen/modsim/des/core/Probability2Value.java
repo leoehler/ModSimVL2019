@@ -1,4 +1,4 @@
-package de.lingen.modsim.simulationCore;
+package de.lingen.modsim.des.core;
 
 public class Probability2Value<T> implements Comparable<Probability2Value<T>>{
 
