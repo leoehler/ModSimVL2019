@@ -42,6 +42,8 @@ public class LoadingDock implements SimulationObject {
     public boolean simulate(int timeStep){
         if(truckCurrentlyLoaded == null
             && GravelShipping.gravelToShip > 0){
+
+
             Event event = eventQueue.getNextEvent(timeStep, true, GravelShippingEventTypes.Loading, null, this.getClass());
 
             if(event != null
@@ -70,6 +72,7 @@ public class LoadingDock implements SimulationObject {
                 }
             }
         }
+        return false;
     }
 
 

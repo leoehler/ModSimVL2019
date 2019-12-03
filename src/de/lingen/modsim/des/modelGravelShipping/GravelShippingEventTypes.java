@@ -6,8 +6,8 @@ public enum GravelShippingEventTypes implements UniqueEventDescription {
 
     Loading("Loading Truck"),
     LoadingDone("Loading Truck done"),
-    Weighing("Weighing Truck"),
-    Transport("Transporting Truck);
+    Weighing("Weighing Truck");
+    //Transport("Transporting Truck");
 
     String eventTypeAsString = null;
 
